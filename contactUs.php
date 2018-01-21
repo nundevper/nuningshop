@@ -17,7 +17,7 @@
         $sqlSetting="SELECT * FROM setting";
         $resultSetting=mysql_query($sqlSetting)or die(mysql_error());
         $rowSetting=mysql_fetch_array($resultSetting);
-        //ส่วนเสริม
+        //ส่วนเสริมgrg
         $sqlPlus="SELECT * FROM plus";
         $resultPlus=mysql_query($sqlPlus)or die(mysql_error());
         $rowPlus=mysql_fetch_array($resultPlus);
