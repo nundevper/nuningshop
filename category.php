@@ -13,7 +13,7 @@
         $sqlDecoration="SELECT * FROM decoration";
         $resultDecoration=mysql_query($sqlDecoration)or die(mysql_error());
         $rowDecoration=mysql_fetch_array($resultDecoration);
-        //ข้อมูลร้าน
+        //ข้อมูลร้านdd
         $sqlSetting="SELECT * FROM setting";
         $resultSetting=mysql_query($sqlSetting)or die(mysql_error());
         $rowSetting=mysql_fetch_array($resultSetting);
